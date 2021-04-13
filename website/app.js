@@ -1,7 +1,6 @@
 /* Global Variables */
 let d = new Date();
 let month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-console.log(month);
 let newDate =  d.getDate()+'.'+month[d.getMonth()]+'.'+ d.getFullYear();
 const apiKey = "c1eb465b61d82b9665192beb85f33dbd";
 const generateBtn = document.querySelector('#generate');
